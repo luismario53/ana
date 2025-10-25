@@ -1,0 +1,27 @@
+{
+  "name": "ana",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/luismario53/ana#readme",
+  "bugs": {
+    "url": "https://github.com/luismario53/ana/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luismario53/ana.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
