@@ -1,0 +1,59 @@
+
+body {
+    margin: 20px;
+    background-color: cornsilk;
+    font-family: "Vend Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.parrafo {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.boton {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #735751;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: none;
+}
+
+.boton:hover {
+    background-color: rgb(28, 56, 47);
+    color: white;
+}
+
+.alerta {
+    background-color: #8c1c13;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.alerta p {
+    font-size: 1.3rem;
+}
+
+.alerta h3 {
+    font-size: 3rem;
+}
+
+.d-none {
+    display: none !important;
+}
